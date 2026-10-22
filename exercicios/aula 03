@@ -1,0 +1,30 @@
+//ex1
+//sem o <link> a pagina fica sem estilo (preto e branco, alinhada à esquerda), porque o navegador nunca é avisado de que qprecisa ler o styles.css.
+//ex2
+//o defer não era desnecessário o script acabou funcionando porque estava no fim do body, quando a página já estava montada. No <head> sem defer, ele falharia. O defer faz o código funcionar independente da posição da tag
+// ex3
+/*
+:root {
+  --vermelho-urgente: #C00000;
+}
+ 
+.cartao-urgente {
+  border: 3px solid var(--vermelho-urgente);
+}
+ 
+.titulo-urgente {
+  color: var(--vermelho-urgente);
+}
+*/
+//ex5
+:root {
+    --cor-principal: #1F4E79;
+    --cor-alerta: #C00000;
+    --espaco-padrao: 20px;
+    --borda-arredondada: 5px;
+}
+/*
+cor-principal: aparece 5 vezes (cabeçalho, borda do cartão, título, contagem e botão Apoiar). O nome descreve o papel, a cor da identidade do Radar
+cor-alerta: aparece no botão Remover e no contorno de foco. As duas são cores de atenção, então o nome descreve a função e continua certo se o vermelho mudar.
+espaco-padrao: é o padding do cabeçalho e do main. Dá um ritmo de espaçamento único para a página.
+borda-arredondada: é o border-radius dos botões Apoiar e Remover. Fica registrado como escolha de identidade visual e não como um número solto.

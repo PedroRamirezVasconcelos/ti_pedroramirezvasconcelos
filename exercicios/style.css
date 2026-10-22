@@ -1,0 +1,61 @@
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #1F4E79;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #FFFFFF;
+    margin: 0;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cartao {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-left: 5px solid #1F4E79;
+    margin-bottom: 15px;
+}
+.cartao h2 {
+    color: #1F4E79;
+    margin-top: 0;
+}
+.contagem {
+    font-weight: bold;
+    color: #1F4E79;
+    font-size: 20px;
+}
+.apoiar {
+    background-color: #1F4E79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.apoiar:focus {
+    outline: 3px solid #C00000;
+    outline-offset: 2px;
+}
+.apoiar:hover {
+    background-color: #2E75B6;
+}
+.remover {
+    background-color: #C00000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.remover:hover {
+    background-color: #900000;
+}

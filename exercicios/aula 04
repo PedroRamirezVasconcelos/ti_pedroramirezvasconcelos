@@ -1,0 +1,10 @@
+//ex1
+//O texto do link deve dizer o destino porque quem usa leitor de tela costuma ouvir só a lista de links,um nao explica nada,um "clique aqui"fica bem suspeito e fora de contexto, “Escolas”, “Alunos” etc. dizem tudo. Quem mais perde é quem depende do leitor de tela.
+//ex2
+//Os dois ficam em negrito, mas <b> muda só a aparência, enquanto <strong> indica importância. O leitor de tela dá ênfase na voz no <strong>, e o visual fica por conta do CSS.
+//ex3
+//O erro é empilhar <br> para criar espaço, que é trabalho do CSS (margin/padding
+//<p>Radar de Evasao<br>NRE Cascavel</p>
+//ex4
+//<a href="https://www.apoio.exemplo.org"
+   //target="_blank" rel="noopener">Canal de apoio</a>
